@@ -1,0 +1,101 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.headerContainer,
+.cardsContainer {
+  background: lightgray;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+.headerWrapper {
+  padding: 10px;
+  max-width: 1200px;
+}
+h1 {
+  font-size: 40px;
+}
+
+.cardsContainer {
+  background: black;
+  color: white;
+  position: relative;
+  margin-left: 0;
+}
+.cardsWrapper {
+  margin: 10px;
+  padding: 10px;
+}
+.cardsWrapper .cardOne,
+.cardTwo,
+.cardThree,
+.cardFour,
+.pie {
+  color: black;
+  background: #eaf0f0;
+  width: 300px;
+  height: 120px;
+  margin: 50px 0 0 30px;
+  border: 2px solid white;
+  display: inline-block;
+  border-radius: 10px;
+  box-shadow: 1px 1px 8px 4px lightgray;
+  text-align: center;
+}
+.cardTwo {
+  background-color: #e63946;
+}
+.cardThree {
+  background-color: #3a86ff;
+}
+.cardFour {
+  background-color: green;
+}
+.cardsWrapper article h3 {
+  padding: 10px;
+}
+
+.pie {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+
+  display: block;
+  background-image: conic-gradient(pink 70deg, lightblue 0 235deg, orange 0);
+}
+
+.piechart {
+  position: absolute;
+  top: 0;
+  right: 5%;
+  text-align: center;
+}
+
+/* CSS for Footer*/
+
+.mainFooter {
+  background: black;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  padding: 10px;
+}
+.middleFooter {
+  margin: 50px 0 0 0;
+}
+.middleFooter a {
+  text-decoration: none;
+  color: #f0db4f;
+  padding: 10px;
+}
+th,
+td {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 30px;
+}
+.bottomFooter p {
+  text-align: center;
+}
